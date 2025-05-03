@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './UseState.css';
 
-function App() {
+function UseState() {
   let [counter, setCounter] = useState(15);
   const addValue = () => {
     if (counter < 20) {
@@ -16,7 +16,7 @@ function App() {
 
   return (
     <>
-      <h4>Start up with react project | Aman started builing the React App </h4>
+      <h4>This component holds logic for Use State Component</h4>
       <h2>Counter Value : {counter}</h2>
       <button onClick={addValue}>Add Value</button>
       <button onClick={removeValue}>Remove Value</button>
@@ -24,4 +24,4 @@ function App() {
   );
 }
 
-export default App;
+export default UseState;
