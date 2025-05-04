@@ -11,11 +11,8 @@ function CTA() {
         <li className='mb-2'><button onClick={() => navigate('/use-state-component')}>Call Use State Component</button></li>
         <li className='mb-2'> <button onClick={() => navigate('/tailwind-component')}>Tailwind Component</button></li>
         <li className='mb-2'><button onClick={() => navigate('/bgchanger-component')}>BG Changer Component</button></li>
+        <li className='mb-2'><button onClick={() => navigate('/password-generator-component')}>Password Generator Component</button></li>
       </ul>
-      
-     
-      
-      
     </>
   );
 }
