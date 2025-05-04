@@ -7,6 +7,7 @@ function CTA() {
   return (
     <>
       <button onClick={() => navigate('/use-state-component')}>Call Use State Component</button>
+      <button onClick={() => navigate('/tailwind-component')}>Tailwind Component</button>
     </>
   );
 }
