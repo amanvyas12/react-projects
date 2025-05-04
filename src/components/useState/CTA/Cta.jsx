@@ -6,8 +6,16 @@ function CTA() {
 
   return (
     <>
-      <button onClick={() => navigate('/use-state-component')}>Call Use State Component</button>
-      <button onClick={() => navigate('/tailwind-component')}>Tailwind Component</button>
+    
+      <ul className='list-decimal'>
+        <li className='mb-2'><button onClick={() => navigate('/use-state-component')}>Call Use State Component</button></li>
+        <li className='mb-2'> <button onClick={() => navigate('/tailwind-component')}>Tailwind Component</button></li>
+        <li className='mb-2'><button onClick={() => navigate('/bgchanger-component')}>BG Changer Component</button></li>
+      </ul>
+      
+     
+      
+      
     </>
   );
 }
